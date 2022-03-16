@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="mt-5 text-center">List Of All Centers</div>
+</div>
+
+
+<div class="container mt-5">
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">Name</th>
+    <th scope="col">Address</th>
+    <th scope="col">TimeSheet</th>
+    <th scope="col">Localisation Link</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let Center of Centers">
+    <td>{{Center.name}}</td>
+    <td>{{Center.address}}</td>
+    <td>{{Center.timesheet}}</td>
+    <td><a  class="btn btn-success" target="_blank" href="https://maps.google.com/?q={{Center.Coordinates.latitude}},{{Center.Coordinates.longitude}}">Go To Localisation</a></td>
+  </tr>
+
+  </tbody>
+</table>
+</div>

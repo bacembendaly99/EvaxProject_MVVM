@@ -4,11 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './ViewModel/HomePage/home-page.component';
+import { ListOfCentersComponent } from './ViewModel/CentersList/list-of-centers.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomePageComponent
+    HomePageComponent,
+    ListOfCentersComponent,
   ],
   imports: [
     BrowserModule,
