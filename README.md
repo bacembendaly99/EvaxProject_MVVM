@@ -1,27 +1,24 @@
-# EvaxProject2022
+# Project Description : 
+This is an angular project following an MVVM architectural pattern, 
+This is a solution for the third question of this Lab (Lab2 - MV* Architectures) : 
+https://insatunisia.github.io/TP-ArchLog/tp2/index.html
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
+# Uses Cases :
+  - List all Vaccination centers
+  - Search for appointment
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#  Architecture : 
+  ### 1) why do we need Architecture ?
+    > If we don't use architecture, we might fall under the risk of writing our codes in an unorganized pattern. This might increase the number of lines of code, making it difficult to understand. It also decreases readability and increases the number of bugs. So, to provide clear data flow which increases robustness, scalability, bug resistance, increases readability, we should use proper architecture, suitable to work in a team.
+    The architectural patterns provide the best practices and play a significant role in application development. These patterns are designed to simplify complex codes and make the UI code cleaner and manageable.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+# Project Made by :
+  - Bacem Ben Daly
+  - Mrabet Chouaib
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
