@@ -1,1 +1,13 @@
-<p>search works!</p>
+
+<div class="form-group container mt-5">
+  <label class="label" for="cin">Cin</label>
+  <input
+    [(ngModel)]="cin"
+    type="number"
+    class="form-control"
+    id="cin"
+    required
+    name="cin"
+  />
+  <button  (click)="SearchAppointment()" class="btn btn-success">Search</button>
+</div>

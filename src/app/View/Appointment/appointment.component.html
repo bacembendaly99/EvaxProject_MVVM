@@ -1,1 +1,11 @@
-<p>appointment works!</p>
+<div class="container">
+  <div class="mt-5 text-center mt-5">Appointment for {{appointment?.user_cin}}</div>
+  <div class="mt-5 text-center mt-5">Date: {{appointment?.date}}</div>
+  <div class="mt-5 text-center mt-5">Center Name: {{appointment?.centre_name}}</div>
+  <div class="mt-5 text-center mt-5">Address: {{center?.address}}</div>
+  <div class="mt-5 text-center mt-5"><a  class="btn btn-success" target="_blank" href="https://maps.google.com/?q={{center?.Coordinates?.latitude}},{{center?.Coordinates?.longitude}}">Go To Localisation</a></div>
+
+
+</div>
+
+

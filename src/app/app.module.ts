@@ -7,6 +7,7 @@ import { HomePageComponent } from './ViewModel/HomePage/home-page.component';
 import { ListOfCentersComponent } from './ViewModel/CentersList/list-of-centers.component';
 import { AppointmentComponent } from './ViewModel/Appointment/appointment.component';
 import { SearchComponent } from './ViewModel/Search/search.component';
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { SearchComponent } from './ViewModel/Search/search.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

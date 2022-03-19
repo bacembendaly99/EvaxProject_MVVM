@@ -4,12 +4,13 @@ import { HomePageComponent } from "./ViewModel/HomePage/home-page.component";
 import { ListOfCentersComponent } from "./ViewModel/CentersList/list-of-centers.component";
 import { Appointment } from './Model/Entity/Appointment';
 import { SearchComponent } from './ViewModel/Search/search.component';
+import {AppointmentComponent} from "./ViewModel/Appointment/appointment.component";
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
   { path: 'Centers', component: ListOfCentersComponent },
   { path: 'Search', component: SearchComponent },
-  { path: 'Appointment/:cin', component: Appointment }
+  { path: 'Appointment/:cin', component: AppointmentComponent }
 ];
 
 @NgModule({
