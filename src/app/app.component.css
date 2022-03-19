@@ -7,3 +7,13 @@
   padding-right: 70px;
   padding-left: 70px;
 }
+.col {
+  padding-left: 110px;
+}
+.footer {
+  justify-content: center;
+  text-align: center;
+}
+.container {
+  background-color:transparent !important;
+}

@@ -1,1 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+html { background-image: url("assets/BG.jpg");
+
+}
+body {
+  background-color:transparent !important;
+}
