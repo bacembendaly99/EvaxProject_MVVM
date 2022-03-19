@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Router} from "@angular/router";
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-search',
@@ -14,7 +14,7 @@ export class SearchComponent implements OnInit {
   ngOnInit(): void {
   }
   SearchAppointment(): void {
-    this.router.navigate(['Appointment',this.cin])
+    this.router.navigate(['Appointment', this.cin])
 
   }
 

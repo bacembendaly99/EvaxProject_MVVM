@@ -1,31 +1,26 @@
 <div class="container">
-
-  <div class="row mt-5" >
-
-  </div>
+  <div class="row mt-5"></div>
   <div class="card">
     <h5 class="card-header">Search Appointment</h5>
     <div class="card-body">
       <div class="form-group container mt-2">
         <div class="mt-2"><label class="label" for="cin">Enter CIN</label></div>
-<div class="mt-3"><input
-  [(ngModel)]="cin"
-  type="number"
-  class="form-control"
-  id="cin"
-  required
-  name="cin"
-/></div>
-<div class="mt-3"> <button (click)="SearchAppointment()" class="btn btn-success">Search</button></div>
-
+        <div class="mt-3">
+          <input
+            [(ngModel)]="cin"
+            type="number"
+            class="form-control"
+            id="cin"
+            required
+            name="cin"
+          />
+        </div>
+        <div class="mt-3">
+          <button (click)="SearchAppointment()" class="btn btn-success">
+            Search
+          </button>
+        </div>
       </div>
-
     </div>
   </div>
 </div>
-
-
-
-
-
-
